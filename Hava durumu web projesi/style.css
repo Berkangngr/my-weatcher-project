@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .very-cold {
+    background-image: url(img/very-cold.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0; 
+    height: 100vh; 
+    overflow: hidden;
+  }
+  .cold {
+    background-image: url(img/cold.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0; 
+    height: 100vh; 
+    overflow: hidden;
+  }
+  .hot {
+    background-image: url(img/hot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0; 
+    height: 100vh; 
+    overflow: hidden;
+  }
+  .very-hot {
+    background-image: url(img/very-hot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0; 
+    height: 100vh; 
+    overflow: hidden;
+  }
+  
+  button {
+    background-color: transparent;
+    border: 1px solid #fff; /* İsteğe bağlı: Buton kenarlık eklemek */
+    color: #fff; /* İsteğe bağlı: Buton metin rengi */
+    cursor: pointer;
+  }
+  .div-shr {
+    display: flex;
+    justify-content: center;
+  }
+  .div-shr h2 {
+    font-size: 40px;
+  }
+  .div-drc {
+    display: flex;
+    justify-content: center;
+  }
+  .div-drc h2 {
+    font-size: 150px;
+  }
+  .div-desc {
+    display: flex;
+    justify-content: center;
+  }
+ .div-desc h2 {
+  font-size: 30px;
+ }
+  
+  .inner-div{
+    width: 100%;
+    height: 150px;
+    border-style: ridge;
+  }
+
+
+
+  
